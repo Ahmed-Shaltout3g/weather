@@ -1,0 +1,87 @@
+.background
+{
+    height: 100vh;
+    background-image: url('../img/weather-effects-with-polar-bear.jpg');
+    background-size:cover;
+    background-position: center center;
+}
+
+.img-logo
+{
+    width: 70px !important;
+}
+
+
+.btn-search
+{
+    padding: 0px 25px;
+    border: unset;
+    border-radius: 5px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+}
+
+.btn-search::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 5px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+}
+
+.btn-search:hover
+{
+    color: #e8e8e8;
+}
+.btn-search:hover::before
+{
+    width: 100%;
+}
+
+
+
+.high-degree-one 
+{
+    font-size: 50px;
+}
+
+
+.icon
+{
+    width: 100px;
+}
+
+.items
+{
+    height: 0%;
+}
+.error
+{
+    width: 150px;
+    padding: 10px;
+    font-size: large;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 40px;
+    background-color: hwb(0 0% 0%);
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

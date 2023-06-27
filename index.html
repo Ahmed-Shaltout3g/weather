@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta >
+    <title>weather</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class=" error d-none">please enter city !!</div>
+    <section class="background">
+        <div class="vh-100 bg-black bg-opacity-25 overflow-auto">
+            <div class="log px-md-5 mx-md-5 p-3 d-flex ">
+                <img src="img/logo2.jpg" class="img-logo rounded-5 m-3 ">
+                <a href="#index.html"class=" pt-4 text-white text-decoration-none fs-3">Weather</a>
+            </div>
+            <div class="container px-md-5 pt-5 ">
+                    <div class=" col-md-6  d-flex m-auto">
+                            <input type="search" class="form-control search " required placeholder="Enter your location "/>
+                            <button class="btn-search " id="btn-search">Find</button>
+                    </div>
+
+                    <div class="row gy-3 pt-5">
+                        <div class="col-sm-12 col-xl col-md-4 ">
+                            <div class="items py-2 px-3  bg-black bg-opacity-50 rounded-2" >
+                                <div class="day d-flex justify-content-between ">
+                                    <p class=" day-one fw-bolder text-light"></p>
+                                    <p class="day-one-number fw-bolder text-light"></p>
+                                </div>
+                            
+                                <div class="d-flex  justify-content-between">
+                                    <div>
+                                        <p class="city-one fw-bolder fs-3 text-light">city</p>
+                                        <div class="high-degree-one fw-bolder text-light"></div>
+                                        <div class="low-degree-one fw-bolder fs-3 text-light "></div>
+                                    </div>
+
+                                    <div class="icon  mx-auto ">
+                                        <img src="" class="w-100  " alt="">
+                                        <div class="status-one fw-bolder fs-3 pb-md-3 text-info text-center"></div>
+                                    </div>
+
+                                </div>
+                                <div class="d-flex justify-content-around pt-3 ">
+                                    <div class="humidity-icon text-center"><i class="fa-solid fa-umbrella fs-3 text-info"></i>
+                                    <p class=" text-white pt-1">20%</p></div>
+                                    <div class="wind-icon text-center"><i class="fa-solid fa-wind fs-3 text-info"></i></i>
+                                        <p class=" text-white pt-1">20km/h</p></div>
+                                        <div class="direction-icon text-center"><i class="fa-regular fa-compass fs-3 text-info"></i>
+                                            <p class=" text-white pt-1">East</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-12 col-xl col-md-4 ">
+                            <div class="items py-2 px-3 bg-black bg-opacity-25 rounded-2 ">
+                                <div class="day d-flex justify-content-between ">
+                                    <p class="day-future fw-bolder text-light">friday</p>
+                                    <p class="day-future-number fw-bolder text-light">22/33/4333</p>
+                                </div>
+                                
+                                <div class="d-flex  justify-content-between">
+                                    <div class="p-2">
+
+                                        <div class="high-degree-future fw-bolder fs-2  text-light"></div>
+                                        <div class="low-degree-future fw-bolder fs-5  text-light "></div>
+                                    </div>
+
+                                    <div class="icon-future w-25 mx-auto ">
+                                        <img src="" class="w-100  " alt="">
+                                        <div class="status-future fw-bolder fs-3 pb-md-3 text-info text-center"></div>
+                                    </div>
+
+                                </div>
+                                <div class="d-flex justify-content-around pt-3  mb-3">
+                                    <div class="humidity-icon-future text-center"><i class="fa-solid fa-umbrella fs-3 text-info"></i>
+                                    <p class=" text-white pt-1">20%</p></div>
+                                    <div class="wind-icon-future text-center"><i class="fa-solid fa-wind fs-3 text-info"></i></i>
+                                        <p class=" text-white pt-1">20km/h</p></div>
+                                        <div class="direction-icon-future text-center"><i class="fa-regular fa-compass fs-3 text-info"></i>
+                                            <p class=" text-white pt-1">East</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-xl col-md-4 ">
+                            <div class="items py-2 px-3  bg-black bg-opacity-25 rounded-2 " >
+                                <div class="day d-flex justify-content-between ">
+                                    <p class="day-future fw-bolder text-light">friday</p>
+                                    <p class=" day-future-number fw-bolder text-light">22/33/4333</p>
+                                </div>
+                                <div class="d-flex  justify-content-between">
+                                    <div class="p-2">
+
+                                        <div class="high-degree-future fw-bolder fs-2  text-light"></div>
+                                        <div class="low-degree-future fw-bolder fs-5  text-light "></div>
+                                    </div>
+
+                                    <div class="icon-future w-25 mx-auto ">
+                                        <img src="" class="w-100  " alt="">
+                                        <div class="status-future fw-bolder fs-3 pb-md-3 text-info text-center"></div>
+                                    </div>
+
+                                </div>
+                                <div class=" d-flex justify-content-around pt-3">
+                                    <div class="humidity-icon-future text-center"><i class="fa-solid fa-umbrella fs-3 text-info"></i>
+                                    <p class=" text-white pt-1">20%</p></div>
+                                    <div class="wind-icon-future text-center"><i class="fa-solid fa-wind fs-3 text-info"></i></i>
+                                        <p class=" text-white pt-1">20km/h</p></div>
+                                        <div class="direction-icon-future text-center"><i class="fa-regular fa-compass fs-3 text-info"></i>
+                                            <p class=" text-white pt-1">East</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    
+    <script src="JavaScript/jquery-3.7.0.min.js"></script>
+    <script src="JavaScript/main.js"></script>
+    <script src="JavaScript/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
