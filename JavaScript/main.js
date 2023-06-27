@@ -60,6 +60,10 @@ $('#btn-search').click(function (e) {
     }
     
 });
+$('.search').keyup(function (e) { 
+    let val= $('.search').val();
+    getApi(val);
+});
 
 
 
