@@ -46,6 +46,12 @@ function displayNextDay(responsJson)
     
 }
 
+$('.search').keyup(function () { 
+    let vals= $('.search').val();
+    getApi(vals);
+});
+
+
 $('#btn-search').click(function (e) { 
     let val= $('.search').val();
     if(val =='')
@@ -61,10 +67,6 @@ $('#btn-search').click(function (e) {
     
 });
 
-$('.search').keyup(function (e) { 
-    let val= $('.search').val();
-    getApi(val);
-});
 
 
 $('.search').keypress( function (e) {
